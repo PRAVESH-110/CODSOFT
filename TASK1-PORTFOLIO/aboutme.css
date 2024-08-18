@@ -1,0 +1,18 @@
+#sun{
+    position: absolute;
+    right: 100%;
+    top: 0%;
+    transform: translateY(-50%);
+    animation: move-right 2s ease-out forwards;
+  }
+  
+  @keyframes move-right {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+}
+
+    
